@@ -1,0 +1,8 @@
+[user]
+	email = nishu22gupta@gmail.com
+	name = Nishu Gupta
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
